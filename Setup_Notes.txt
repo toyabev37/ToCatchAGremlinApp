@@ -1,0 +1,13 @@
+1. Create my DataModels
+2. Check and see if entity framework understands my models...(rt+click on my GremlinDBContext class ->EF6-> View Entity Data Model )
+	Create a class that inherites from DbContext(we have to download EntityFramework)
+3.Now that EF knows what I want I will continue... Make a Migration (snapshot of where the app is a a certian time of development)
+ 3a. Enable-migrations
+ 3b. Add-Migration
+                     >-----do these after you Enable migrations, you only have to enable migrations once
+ 3c. Update-database
+
+ 4.when objs are created and tables have been made proceed forward...
+ 5.rt-click controller folder to create a Controller....
+ 6. DO CRUD OPPERATIONS W/N CONTROLLER (FOR NOW , THIS CHANGES W/N ELEVEN NOTE!!!)
+ 7. TEST ENDPOINTS IN POSTMAN!!!
